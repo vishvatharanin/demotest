@@ -53,6 +53,7 @@ end
 group :production do
   gem 'pg', '~> 1.0'
   gem 'rails_12factor'
+  gem 'heroku-deflater'
 end 
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
